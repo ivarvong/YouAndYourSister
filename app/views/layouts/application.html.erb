@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>You & Your Sister</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="http://youandyoursister.com/favicon.ico" />
+	<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+	<%= csrf_meta_tags %>	
+	<script>
+		window.top_of_page_time = new Date().getTime();
+		window.have_reported_dom_ready = false;
+		window.is_logged_in = <%= current_user.present? ? 'true' : 'false' %>;
+	</script>
+</head>
+<body>
+	<%= render 'layouts/nav' %>
+	<div class="wrapper">
+		<%= yield %>
+	</div><!-- .wrapper -->
+	<footer>
+		<% unless current_page?(submit_path) %>
+			<%= image_tag 'youandyours.png', class: 'footer-logo' %>
+		<% end %>
+	</footer>		
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-42111803-2', 'youandyoursister.com');
+	  ga('send', 'pageview');
+	</script>
+	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+</body>
+</html>

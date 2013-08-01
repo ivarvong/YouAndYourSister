@@ -1,0 +1,5 @@
+<%= render 'layouts/flag' %>
+
+<h2>Things that <%= @user.nickname %> +'d</h2>
+
+<%= render @posts %>

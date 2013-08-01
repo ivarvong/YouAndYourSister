@@ -1,0 +1,12 @@
+<div class="new-post">
+
+  <%= form_for(@post) do |f| %>  
+  <div class="field">
+    <%= f.text_field :title %>
+  </div>
+  <div class="submit-action">
+    <%= f.submit "", class: 'submit-button' %>    
+  </div>
+  <% end %>
+  
+</div>

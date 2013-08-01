@@ -1,0 +1,169 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+	background: url(<%= asset_data_uri 'bg.png' %>);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;	
+}
+
+.nav-item a {
+	text-decoration: none;
+}
+.nav {	
+	letter-spacing: 1px;
+	padding: 30px;
+	font-size: 17px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-weight: 800;
+}
+.nav-item {
+	display: inline-block;
+	
+}
+.nav-item.current a {
+	border-bottom: 2px solid #000;
+}
+
+.logo {
+	margin: 30px auto;
+	width: 450px;
+	max-width: 100%;
+}
+
+.flag {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 30px;
+	font-size: 18px;
+	line-height: 1.3em;
+	font-weight: 300;
+	font-size: 16px;
+	font-weight: 100;
+}
+.flag a {
+	text-decoration: none;
+}
+.flag strong {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.yes-button {
+	width: 60px;
+	height: auto;
+	padding: 10px 0;
+	cursor:	pointer;
+}
+
+.submit-flag {
+	width: 85px;
+	padding: 0px;
+	border: 2px solid #333;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 40px;
+	letter-spacing: 2px
+}
+.submit-flag a {
+	text-decoration: none;
+}
+
+.what-is-sisterhood {
+	margin: 0 auto;
+	width: 400px;
+	max-width: 100%;
+}
+
+.what-is-sisterhood h2 {
+	font-size: 34px;
+	line-height: 2.2em;
+	font-weight: 600;
+	padding-top: 10px;
+	letter-spacing: 4px;
+	line-height: 1.0em;
+	border-bottom: 2px solid #000;
+	padding-bottom: 0px;	
+	text-align: center;
+}
+
+.about-wrapper {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.about-well {
+	padding: 10px 14px;
+	font-size: 20px;
+	line-height: 2em;
+	margin: 0 auto;
+	max-width: 100%;
+	text-align: center;
+	font-weight: 300;
+}
+.about-well .main {
+	text-align: left;
+}
+.about-well p {
+	margin-bottom: 30px;
+}
+.about-well img {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.about-well .img-wrapper {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform:rotate(-1.5deg);
+	-ms-transform:rotate(-1.5deg);
+	-webkit-transform:rotate(-1.5deg);
+}
+
+.about-well .caption {
+	margin: 0;
+	text-align: right;
+	font-size: 13px;
+	margin-top: -17px;
+	margin-right: 7px;
+}
+
+.footer-logo {
+	margin: 20px auto;
+	margin-top: 50px;
+	display: block;
+	width: 250px;
+	height: auto;
+}
+	
+.only-vote-once {
+	display: none;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	left: 25%;
+	font-size: 30px;
+	width: 50%;
+	padding: 20px;
+	z-index: 30;
+}

@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sistersigns_development
+  pool: 5
+  username: ivar
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sistersigns_test
+  pool: 5
+  username: ivar
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: sistersigns_prod
+  pool: 5
+  username: heroku-will-overwrite-this
+  host: localhost
+  port: 5432

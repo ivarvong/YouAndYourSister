@@ -1,0 +1,300 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+body {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAA2iCAIAAABuKFFeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAYD2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarVllVBV%2Ft94zcwIOh0N3Hbq7Qbq7UwQOcOjy0GAhiJQiiCgCBioKKhiUii0iiggqWICEAYKKAUrJ%2FSD6f9%2F73vvhrnX3h1l7PfPsZ9eaNWvmByDYTEtMjEXZAeLikxnuNuZUXz9%2FKnEY8MALrGAIYrTQpEQzV1dH%2BF9tfhAQAIAnyrTExFj4vxlHGD0pFABxBYCQsKTQOACkGQBrD01kJAPgYwFAKi05MRkAvwcAuBm%2Bfv4A%2BOMAwB3x228HAO6Q334PAHAzPN0tAPCjAExkGo0RAcA6AwDU1NCIZAAKGYDAGR8WFQ%2FATQUgGIdG0sIABIMBQCkuLiEMQLAYAORC%2FkUn4t80Q%2F5q0mgRf%2F3fvQAAAJNlVFJiLC0D%2Fr8tLjblTw5RACAnxXg4AAAvAJIeSrPyAAB%2BAGR3JN3OcQ2vS0w2d1%2FDO6KS7TwBgBsAeRqZYuu15k%2BmxHiZAYAwALIck%2BDgDgBkAJQ%2FPsTZBQA4AVCp0CQL%2F9%2BaqE5mpKfPGscxjG5pBQDsAKgvI8H9Dz8yKdXjD56ZGWnh%2FIcfTbN3BQAKAFpIYwD8rgE9QI%2B1cQcACQD0TGKyq%2Bdart74WOe1XtA34Qxr9zV%2FkZ5k5fEnV3Kkp%2B1vfYw9meHp%2FlsTEw6Psrb7XQOmFsmw%2FYObJsa6Ov6OxTwZKe5eACAFgIXT473WNLHCMJqlw%2B%2BZYNVgDTRgAB1CIB6mgAqOYAGWa1cq0CEeqBAKCRALCcCgsv25g3%2BH78eP4wfwo%2FgXf9kWf3gQBWGQ8BcP%2FRfcAzLhI8QDHZL%2BZMMJ4oxxhjhHnDHOFGeM08Dp4fT%2F3OudaZv5W9XvWiOADspriPla9akQDyt%2FeEFR2xn%2FLSbkb8R%2F1mQNb4ABEX8YaqfVptSW%2F8T%2F0zHBimBJsCVYE%2BSxfOwi1oXdxLqxDqwNqNh1rB3rwa5ibf8xP9raVBhAhyRwgFigQwowgA7x%2F2NFKX8ZayhFgaIN7kCHeIiBWIj6m8Eb3gADov5DJQWoEAIJEA1R4PC3xz%2BTlsFp4LRx5jgjnDFOH6g4XpwgKOO0cHo4M5wJzhCnjdP%2Fly3%2BezfKEA40YEAq0CEJYuAdMCAumZ6eDABgkZCYwYiKiEymmiUmxtKVqHbxoSpKVA01dU3w9fOn%2Fn60v7kDAgAI76N%2FMPokwDp2AOa%2Bf7DovQANnQB8hf9gMusBBJQAzj8OTWGk%2FsZwAAB4IAEbcIMAiIIkyIEyaIAOGIIpWIE9uIAn%2BEEghEIkxAED0mATZEMeFMEe2AcH4TAcg1NwFi5AG3TATbgLD6APBuAVjMJbmIZZmIclBEGICCvChQggYog0oohoIHqIMWKFOCLuiB8SjEQg8UgKsgnJQYqQMuQgchSpR84jl5CbSDfSj7xAxpAp5CuyiGIoGeVGRVAZVBXVQ81QB9QT3YBGoBvRTDQX3Y0eQGvRM2grehN9gA6go%2Bg0OocBxoLxYuKYMqaHWWAumD8WjjGwLVghVoHVYo3YZawLe4KNYjPYAo6A48JRcco4Q5wtzgsXituI24Irxh3EncK14u7gnuDGcLO4X3hWvDBeEW%2BAt8P74iPwafg8fAW%2BDt%2BC78QP4N%2Fi5wkEAi9BlqBLsCX4EaIJWYRiQg2hiXCD0E%2BYIMwRiUQBoiLRiOhCpBGTiXnESuIZ4nXiY%2BJb4k8mFiYxJg0mayZ%2Fpnim7UwVTA1M15geM71nWmJmZ5ZmNmB2YQ5jzmAuYT7OfJn5EfNb5iUSB0mWZETyJEWTskkHSI2kTtIQ6RsLC4sEiz6LG0sUyzaWAyznWO6xjLEskDnJCmQLcgA5hbybfJJ8g%2FyC%2FI2VlVWG1ZTVnzWZdTdrPett1hHWnxQuigrFjhJG2UqporRSHlM%2BsTGzSbOZsQWyZbJVsF1ke8Q2w87MLsNuwU5j38JexX6J%2FRn7HAcXhzqHC0ccRzFHA0c3xyQnkVOG04ozjDOX8xjnbc4JLoxLksuCK5Qrh%2Bs4VyfXW24Ctyy3HXc0dxH3We5e7lkeTh4tHm%2BedJ4qnqs8o7wYrwyvHW8sbwnvBd5B3kU%2BET4zPjpfAV8j32O%2BH%2FxC%2FKb8dP5C%2Fib%2BAf5FAaqAlUCMQKlAm8CwIE5QQdBNME3wkGCn4IwQt5ChUKhQodAFoZfCqLCCsLtwlvAx4R7hORFRERuRRJFKkdsiM6K8oqai0aLlotdEp8S4xIzFosTKxa6LfaDyUM2osdQD1DvUWXFhcVvxFPGj4r3iSxKyEl4S2yWaJIYlSZJ6kuGS5ZK3JGelxKScpDZJnZZ6Kc0srScdKb1fukv6h4ysjI%2FMTpk2mUlZflk72UzZ07JDcqxyJnIb5WrlnsoT5PXkY%2BRr5PsUUAVthUiFKoVHiqiijmKUYo1ivxJeSV8pXqlW6ZkyWdlMOVX5tPKYCq%2BKo8p2lTaVT6pSqv6qpapdqr%2FUtNVi1Y6rvVLnVLdX365%2BWf2rhoJGqEaVxlNNVk1rza2a7ZpftBS16FqHtJ5rc2k7ae%2FUvqW9oqOrw9Bp1JnSldIN1q3WfabHreeqV6x3Tx%2Bvb66%2FVb9Df8FAxyDZ4ILBZ0NlwxjDBsPJdbLr6OuOr5swkjCiGR01GjWmGgcbHzEeNRE3oZnUmoybSpqGmdaZvjeTN4s2O2P2yVzNnGHeYv7DwsBis8UNS8zSxrLQsteK08rL6qDViLWEdYT1aetZG22bLJsbtnhbB9tS22d2InahdvV2s%2Fa69pvt7ziQHTwcDjqMOyo4MhwvO6FO9k57nYacpZ3jndtcwMXOZa%2FLsKus60bXK24EN1e3Krd37urum9y7PLg8gjwaPOY9zT1LPF95yXmleN3yZvMO8K73%2FuFj6VPmM%2Bqr6rvZ94GfoF%2BUX7s%2F0d%2Fbv85%2Fbr3V%2Bn3r3wZoB%2BQFDG6Q3ZC%2BoTtQMDA28GoQWxAt6GIwPtgnuCF4meZCq6XNhdiFVIfMhlqE7g%2BdDjMNKw%2BbohvRy%2Bjvw43Cy8InI4wi9kZMRZpEVkTORFlEHYz6Em0bfTj6R4xLzMmY1Vif2KY4prjguEvxnPEx8XcSRBPSE%2FoTFRPzEkc3Gmzct3GW4cCoS0KSNiS1J3MnJyb3pMil7EgZSzVOrUr9meaddjGdIz0%2BvSdDIaMg432mdeaJLFxWaNatTeKbsjeNbTbbfHQLsiVky62tkltzt77dZrPtVDYpOyb74Xa17WXbv%2Bf45FzOFcndljuxw2bH6TxKHiPv2U7DnYfzcflR%2Bb0FmgWVBb8KwwrvF6kVVRQtF4cW39%2BlvuvArtXd4bt7S3RKDu0h7InfM1hqUnqqjKMss2xir9Pe1nJqeWH5931B%2B7ortCoO7yftT9k%2FesDxQHulVOWeyuWDkQcHqsyrmqqFqwuqf9SE1Tw%2BZHqo8bDI4aLDi0eijjw%2FanO0tVamtuIY4VjqsXfHvY93ndA7UV8nWFdUt3Iy%2FuToKfdTd%2Bp16%2BsbhBtKTqOnU05PnQk403fW8mx7o3Lj0SbepqJzcC7l3IfzwecHLzhcuHVR72Jjs3RzdQtXS2Er0prROtsW2Tba7tfef8n%2B0q3LhpdbrqhcOdkh3lF1ledqyTXStdxrq9czr8%2FdSLwxczPi5sStoFuvbvvefnrH7U5vp0PnvbvWd293mXVdv2d0r6PboPvSfb37bQ90HrT2aPe0PNR%2B2NKr09v6SPdRe59%2B3%2BX%2Bdf3XHps8vvnE8sndp3ZPHww4D%2FQPeg0%2BfxbwbPR52PPJF7EvvrxMfbn0atsQfqhwmH24YkR4pPa1%2FOumUZ3Rq2OWYz3jHuOvJkInpt8kvVl%2Bm%2FuO9V3Fe7H39ZMakx1T1lN9H9Z%2FeDudOL00k%2FeR42P1J7lPzZ9NP%2FfM%2Bs6%2B%2FcL4svq1%2BJvAt5Pftb7fmnOdG5mPm1%2F6UfhT4OepBb2FrkWfxfdLacvE5QMr8iuXfzn8GlqNW11NpDFoAACAAQAaHg7w9SQAqx8AVx8AifL722jNMAQABQBvxAo1w%2FRw%2FHgSgYmoxuTHnEO6Tiaw0iht7CSOWM773No81XzAHyPQK6QjvEdkWsyUWiLeL0mS0pf2k4mRjZMLkDdXEFH4onhXqVI5RsVIlVX1tVqT%2BjYNN01xzY9al7R36LjpCuu%2B1WvUTzcwMyQZPllXbRRmrGT81aTNdJOZuTnZ%2FLXFNcsGqxrrUpsttjQ7E3t%2B%2By8OPY6NTjXOR106XCfc8R4CnoJe7N6Y97LPkh%2F4M6%2BnBLBuwG2YCxwP6gu%2BQbsYUhdaGVZIzwiPiPCMNI%2FSilaIEY8ViGOLx%2BK%2FJ4wn9m28wjietDt5a0peaks6LoOeeWMTbJbZYrDVbtv67JTtu3P25Wbt0NoxkVey0zVfuoClEIrQYo5dcruNS5z3%2BJT6l%2Fnv9S333udZ4bbf%2BYBDpc1B8yrjav0azUPKhxWOqB11qM05NnrCru7Myel6jgbp0%2BpnDM9aNjo1%2BZwLOh95IfFiWvOWlu2tO9ry24sulVzed6W6o%2B5q87XO689ujN4cvNV0O%2FwO%2F517nRV307rC723o9rnv9sChx%2Bahba%2Fno419R%2FpfPGF5qjpgMWj3zOq53gvpl5SXC68mh54P3xw59jpnNGLMa9x5wumNy1uXd%2Fbv9Sf5JkenCj9ofRidPjWT%2BdH2E9On%2Bs82nydmj31J%2Fxr4zeW701z0%2FK2fOxfbVixXV9f2r47hsCncKH6CMMuEMeuQIlmqyaMUBbY09rucAlwZ3E95Nfi28w8LagvlCfeJCor5UkvFOySGJOek5qU%2FyDyUPSbHkDdWYFJ4qnhYKVpZW%2FmXyl3V3Wo%2B6mLq7zUaNVO1jLQR7U6dQl0XPS69Qf1Kg%2FWGIoZD66qNAowFjJ%2BZ7DddbyZjtmQ%2BYHHestiKbr3OhsPmnW2H3T77VAe6Y4hTpHOCS5xriJuLu6GHgqeQF8Ub9Z73ee876Hfbv3F9VUDhhszAqCDfYEuaagh%2FKBL6IWyAfie8JaIusiIqNzohxi%2FWNE42njX%2Be8JY4sjG70niyUEplak3056nT2TMZC5sYtksukVuK3UbYdvr7JbtJTmM3MAdXnm%2BO6PycwpqCs8WtRS37mrefb7k7J760hNlR%2FZWle%2FbV1JRsH%2F7gYzKhIMRVVHV22quH5Y%2FcqpW9ljZ8ScnFk5STgnWSzYonFY%2Fo3vWuNGyyemc3%2FnYC3kXjzVfa%2BlvHWmbbP92GbvC16F41fCa6XXdG%2BI30Zvjt7put9w52Vl1d0%2FXjnuZ3Yz7yQ8Kejp6eR9t7ht%2BLPjE5KnnQPjgtmcnnj968f0V55DysONI4uv9o1fGHo%2BPTIy%2FmX6Hf68%2FmT3VP80xo%2FZR%2B5PMZ7bPP2fffXn29f63S9%2BPzm2d9%2F4h%2B2P%2BZ8dC5qLhEnnZcmVqbf8qyDRagwXi5PFE%2FBfCFPED0zjzFxYSWZrVjOLPls1%2BhqOfc5VbmseKN5pvB%2F9hgWbBTqF7wndFrogeFUunmlMXxY9LOEhMS%2BZLyUrdkg6UXpApl1WTvS8XIU%2BUP6lgq%2FBeMU9JTqlTOVQFVGpU16k%2BV0tR51Rv0nDUmNTM0RLVatd2157R2aErptum56o3qb%2FVgNfgtKGZ4eN1oes%2BGWUZE42rTLRMBk0zzUTN2s1dzF9YRFqsWtZauVozW9%2B22WSrZfvBrtY%2BwIHfYdBxn5OHM5tzt0uOq6Hrd7cm9xgPWY83nke9NngLeD%2F1KfG19V31a%2FGPXS%2B1fjigYoPzhvnA8iDpoOZgs%2BCXtPQQiZDnoZVhkXSbcN0I%2FUi7KFp0XAwt1iSOPW4o%2FkRCXKJ24vLG24zCJNdknuRXKYdTw9Jk0t6lH8qwyhjKjM3iznqy6crma1vubL297VJ2%2FfaKnJzchB3r86x2KuTj858WVBb6F0kVLRWP7nq4%2B1LJkT1bSteXGewV3LtQPrjvQsX%2B%2FbsOlFUePXix6m7185oPh5aOsB6l1moesz0ecCKhbsvJglPF9dsaaKd1z1DOfD37sXHhHPm86AWNi67NWS3NrT%2Fb9S8lXq68cq6j%2FeqVa93X527a3Lp0x6NzrquiW%2FP%2B055dvcF9do%2FNnpoPxr6gDE2P936Y%2B76wugrw%2Bx8ZAABBB2BvNoBvHoCXCUDpHQCZAQA%2BEoArK4CnPqAy4YCSewAxGPv7%2FkAAAwKwAAfwgxjIghoYgCW4gD%2BEQxJkQwkcgka4Bo9gDL4jREQYUUdskCAkDSlFziD3kHcoAZVDHdEktAZ9gK5ielgqdgn7hbPB7cWN4zXx%2BfjXBANCJWGJSCPeZ9JlOsksxFxKYiEVsJBY9pAFySdZtVg7KEaUy2x6bFfYbdlfcSRzsnOe5bLk6uf25O7nceF5zBvE%2B5Ovkt%2BIf0Rgs6CQ4GWhQGFm4Q6RVFEt0W9iF6gMcW3xZYkuyQqpSOl1MhSZUdmLcvnyIQpmijJKFKUl5U8qb1QH1FrUszTUNUY087W0tT5rt%2BuU6Wbohek7GqgZ8q2jGKkYV5kqmu0y77b4bMVkzWMjYCtsJ2Wv5eDsuNHpgPMdl69uku4%2BHrs9u7xxPpa%2BeX4963kDQjY0BL4JJtA4Qgghc6Fvw4boHyLYIh2i9kW%2Fj10XVx7%2FKdF%2BY0MSOXljyss06%2FT2TOWsus3ULVXbeLNLc0i52TvmdkbnTxcWFcftbinl2CtY%2FrGi%2FkDQQd6qvppdh22OzNWWHOc%2BkV83fyqm%2FuvpPWetmjjOfbnwrnmydbr9%2FeWJji%2FX%2BW5a3A7sDO7y6DZ5oPpQ%2FpFOf%2FyTn89wL5mHDr%2FmGrv2ljK5adrsY9Pnpa86363nST92%2Fby%2FMLn4dunFcvPKnl8hq2qrq2v7JwIZOEEAxEEBNMEIbMETgiEOsqAAKqEeLsEDGIZZBI8IImqIDRKEZCDlyDmkF%2FmIsqGaqD%2Bag15A32JiWBB2HJvB6eBycQN4eXw2fohgQKgiAjGSOMBkxdTOrMrcQJInnWHRYrlOdiVPsKZTmCn72MTZzrFbsL%2FiSOPk5Wzj8ub6yL2Zh8RzgFeZ9z5fAj8f%2Fw2BKEFuwRtCCcJSwkMilaK%2BYvxiL6g14mESapIg%2BVTqtHSuTICslhyr3Af5HoWLioeVSpRzVDapJquFqptqkDV6NQu1HLT5tL%2FovNDt0mvVrzUoNsxcl2pUYNxu8sNM0zzMosiyzqrV%2BorNFdurdt32Y46ok4Kzt8sO1za3GQ8pzyCvGu8RXwm%2FaP%2FWAOIGn8CDQZ3B%2FbRbIfWh%2BWFRdPdw2wi%2FyO1RN2JYY0PiOhIEEzM3DieZJ9ensqUlpj%2FIFM9K3dS3RXvr8Wyh7eW5pB1ZeTP5tILxosxdaiXonuGy8%2BWpFVr7v1aer0qpMTi0eKSuVuNYzfH3dbInI0%2Bda%2BA7XX3WqPHjucoL%2Bhd7W2itS%2B21l9064Gr9dccbX24dvhNy1%2BCe%2BH3cg4cPUx8R%2Bgofk5%2FUDgQ9c3oR%2B%2Brk8PtRsXHXN9nvrk3xTe%2F5JDP78Fv5fPGC3ZLG8qGVN7%2B%2BrO0fB8zADvwgDoqgAxbgCoEQB5uhBI5CM9yDEfiOkBEZxBTZgGQhVchVZAxlRjVRGroP7cN4MDp2FSeM24b7gPfDPyRYEK4SjYg3mRyZhpmTSGykcyzeZIzcxrqRok75ydbJXsmRwunHZcdtz%2BPGa8%2Bnyy8voC0YJJQhnCwSIuop5kx1EneScJR0knKXDpJJkt0l1yB%2FT2FKiVVZVyVc9aDaoIagZphWk%2FaSrqveQ4OCdX7GeJM9psvmDhY5lnVWbdYdNtdse%2B2WHBwcW51VXM64qbi3elp4DfrE%2BZH8zwR4B3IEs4QEha2nv4kwjCyKehfjHtsT75TweON6xmRyVqpo2kjG3awbm2u2em1b3H401ztPbOdswdWi4l3hJTalAmUPysP3ze%2FPqeQ4WFutU%2FPwcPhRpLb6uN6JgZMp9UIN985sbbQ5p3rBunlra217yWW%2FDr6rz65X3fS7Tbxz4q5W15Vuq%2FvPetJ7Vfuw%2FtknkwP9z0pfyL6sefVr2Gqk8PWDMbZxr4kjb6beqb%2BPmTwyde%2FDhxn8R%2BFPap8tZ32%2B0L6GfXP9LvF9bm7XvPB8ww%2F9Hwd%2FLPz0%2Bdm6wLvAWGhdWFo0Xcxd7F6iLHks7V%2FqW2ZaNl1OXz6%2FPLUivuK3UrZyf2Xll%2FqvsF%2F7fz349WtVfZW%2BemC1Z3UVIClcUwMAABCyOQB%2BZHX1mwwAsQxgpXR1dal2dXXlGAA2BHAj9ve5CwAAgR2gehYA4EH74rb%2Ffv7xX6ZXujHVLVioAAAAIGNIUk0AAG2YAABzjgAA2ksAAIThAAB87gAA2AAAADI5AAAdLnSwtFsAAALQSURBVHja1FpBchxBCEPz%2F6%2FlD35DHmD5FKey7gYE9OzksOWqZZsRSLB2y%2Fbr4%2FdlZv%2B8YPzx3vcLTmx5li8%2FhWelsFDC4j%2FPj3lnAfVskC%2FCuX0eL4T9Zvhetjb%2FbIAFKpZMz5yzUDhgIV%2Bu7q0eypx%2BhvOFcQ7y%2BTr9BjJnPH5msMB4GSw487mfWUZ7h8LngzgZ7jIpb5SP9Z0a13E6Xya%2B%2BQ7rcNDqWQWLoL2UHoocWIMDtW6ziybmO6oHK2JRe9acAxvWtdrHiZ5ucRb1IPesme%2FOmZ3%2Bvgh1iM3nkYg7MWZyC%2FlMzfc3Bi%2FO1XP9fPU4nNqrfYywKDgbHDCDAyKWIqdRXzjdl0kOIu472pvloKNNjGrTEnxjcJ5PceBpc3W2s6PntYnxvdjYY%2Bzu8PX7XMTp5vLxM8BB9%2FdppPBlcXpxUj%2FLsO5aXyp1TOfL9Xu9v1nlQMbZ04M3Q%2FdygMfogYX9UMVxTrcbLPxfZhJhXMHCxo7uc4Bn6IF4%2B44%2BNSdlT2sTr3tF1vKZlljwDiw27KF1%2B6I9y8q%2BlY7zaN14ijbV2jOenD2Ig2foQff7%2FX6f0gM2d7AIZ5i36PbuHd3CcmS%2F63pAam%2FWfCZstVLxYIL786UP3bhzD%2Fx57yxXOGDlfD2cr%2BcDPwgZHFN1sFcbJnumcqrgtMG%2BHODgbdpkYcatMZN3cWDu%2F47p%2FB3kAOo%2BZlMrqjYnOe3OUKePHSyv2gruudG4c4eYF437eAR%2F28PxFaB6aJV8ga%2BNYm1oeKoVDlC%2FU4vrgMapVTlQe1roYxIL5J4FtaHuM5V2wamZVes26%2B2x2%2FRQmIOoxul8nZ7d%2BX0RclTLR7t8f4avd8lw78EZ%2BNqepxLl%2FXknP4HF81OieC7fn8%2F6vulV89C480wwlq%2FT71w%2Bq%2FEncBDVHWKh6r%2Bh7JNb23dU9ODXxsb%2Fouh%2BHsY9du87LOn3fw0AKMVZABhjCU0AAAAASUVORK5CYII%3D);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;	
+}
+
+.flag {
+	font-weight: 300;
+}
+.flag strong {
+	font-weight: 800;
+}
+
+.nav {	
+	letter-spacing: 1px;
+	padding: 30px;
+	font-size: 17px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-weight: 800;
+}
+.nav-link {
+	display: inline;
+	text-decoration: underline;
+}
+.nav-link a  {
+	text-decoration: none;
+}
+
+.logo {
+	margin: 30px auto;
+	width: 60px;
+}
+
+.flag {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 30px;
+	font-size: 18px;
+	line-height: 1.3em;
+}
+
+
+.submit-flag {
+	width: 85px;
+	padding: 5px;
+	border: 1px solid #333;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.submit-flag a {
+	text-decoration: none;
+}
+
+.what-is-sisterhood {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 300;
+	padding-top: 10px;
+	letter-spacing: 2px;
+}
+
+.about-well {
+	border-top: 1px solid #000;
+	padding-top: 30px;
+	width: 600px;
+	font-size: 20px;
+	line-height: 1.4em;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.only-vote-once {
+	display: none;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	left: 25%;
+	font-size: 30px;
+	width: 50%;
+
+	padding: 20px;
+	z-index: 30;
+}
+.modal {
+	opacity: 0.85;
+	background: white;
+	width: 50%;
+	min-width: 320px;	
+	position: fixed;
+	left: 20%;
+	top: 20%;
+	z-index: 30;
+
+	display: none;
+}
+
+.modal .header, .modal .footer {
+	height: 40px;
+}
+
+.modal .top-shim, .modal .bottom-shim {
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	padding: 0;
+	margin: 0 10%;
+	height: 10px;
+}
+.modal .top-shim {
+	border-top: 2px solid #000;
+}
+.modal .bottom-shim {
+	border-bottom: 2px solid #000;
+}
+
+.modal .main {
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	margin: 0 10%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px
+}
+.modal a {
+	text-decoration: none;
+}
+
+.modal .main .left-pane {
+	float: left;
+	border-right: 2px solid #000;
+	width: 49%;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+.modal .main .right-pane {
+	float: left;
+	width: 50%;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+.clearfix {
+	clear: both;
+}
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+
+.post {
+	padding: 10px;
+	margin: 50px;
+	text-align: center;
+	position: relative;
+}
+
+.post h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 1.4em;
+	font-weight: 900;
+	color: #000;
+	margin: 0;
+}
+
+.post .like-button {
+	font-size: 40px;
+}
+
+.post .meta {
+	position: absolute;
+	left: 45%;
+	width: 10%;
+	text-align: center;
+}
+
+.new-post {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.new-post input {
+	font-size: 30px
+}
+.submit-button {
+	background-color:transparent;
+	border: 1px solid #000;
+}
+.new-post input {
+	font-size: 22px;
+}
+
+.collection-toggle {
+	padding-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 2px
+}
+.collection-toggle a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#post_title {
+	width: 500px;
+	max-width: 100%;
+}
+body { 
+  color: #000; 
+}
+
+body, p, ol, ul, td {
+  font-family: helvetica, sans-serif;
+  font-size:   16px;
+  line-height: 1.4em;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica";  
+}
+
+a { 
+  color: #000; 
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+

@@ -1,0 +1,7 @@
+<div class="post post-<%= post.id %>">
+    <h1><%= post.title %></h1>
+    <a class="like-button" data-post-id="<%= post.id %>"><%= image_tag 'yes.png', class: 'yes-button' %></a> 
+    <div class="meta">      
+        <span class="like-count"><%= post.likes.count %></span>
+    </div><!-- .meta -->
+</div><!-- .post -->

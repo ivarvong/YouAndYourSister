@@ -1,0 +1,5 @@
+<%= render @post %>
+
+<% if current_user.present? and current_user.admin? %>
+	<%= link_to 'Edit', edit_post_path(@post) %>
+<% end %>

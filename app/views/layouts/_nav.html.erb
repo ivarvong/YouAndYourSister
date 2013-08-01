@@ -1,0 +1,35 @@
+<header>
+
+	<div class="flag">
+		<a href="http://hardl.tumblr.com/about">
+			<strong>Sister Signs</strong><br>
+			Hard L Gallery<br>
+			Seattle, WA<br>
+		</a>	
+		<% if current_user.present? and current_user.admin? %>
+			<%= nav_link "CorbinRainbowz", not_approved_path %>
+		<% end %>
+	</div>
+
+	<div class="logo">
+		<a href="/">
+			<%= image_tag 'sisterhood.png' %>
+		</a>
+	</div>
+
+	<div class="nav">		
+		<%= nav_link "Submit", submit_path %> /
+
+		<%= nav_link "About", about_path %> /
+
+		<% if current_user.present? %>			
+			<%= nav_link "Log Out", logout_path %> /
+			<b><%= nav_link "YOU", by_nickname_path(current_user.nickname) %></b>
+		<% else %>
+			<%= nav_link "Log In", "/auth/twitter" %>	
+		<% end %>
+		
+		
+	</div> 
+
+</header>
